@@ -89,9 +89,9 @@ often to make sure you never miss out on the deal of a lifetime!</p>
 
 
 
-<footer>
-	&copy; 2017 by Boots 'N Beer
-</footer>
+<?php
+include '../resources/footer.php';
+?>
 
 </div>
 

@@ -15,7 +15,7 @@
 <body>
 
 <?php
-include '../resources/navigation.php'
+include '../resources/navigation.php';
 ?>
 <div class = "below_menu_container">
 <img class="boot" src="img/bootsnbeer_logo2.png" alt="Band Logo" />
@@ -49,9 +49,9 @@ concerts for anyone who would like to see the concert.</p>
 <p>Videos available for $50</p>
 
 
-<footer>
-	&copy; 2017 by Boots 'N Beer
-</footer>
+<?php
+include '../resources/footer.php';
+?>
 
 </div>
 

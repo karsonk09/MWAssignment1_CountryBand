@@ -32,7 +32,7 @@
 <body> 
 
 <?php
-include '../resources/navigation.php'
+include '../resources/navigation.php';
 ?>
 <div class = "below_menu_container">
 <img class="boot" src="img/bootsnbeer_logo2.png" alt="Band Logo"/> 
@@ -94,9 +94,9 @@ Make sure you stay tuned to find out when it is official!</p>
 
 <address> Golden Fiddle Records located at 1234 Shawqa Avenue in Des Moines, IA. </address>
 
-<footer> 
-&copy; by Boots 'N Beer 
-</footer>
+<?php
+include '../resources/footer.php';
+?>
 
 </div>
 

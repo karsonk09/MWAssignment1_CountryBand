@@ -30,7 +30,7 @@
 
 
 <?php
-include '../resources/navigation.php'
+include '../resources/navigation.php';
 ?>
 
 <div class = "below_menu_container">
@@ -69,9 +69,9 @@ please contact Matt Rockhold, the band's manager.</p>
 
 <address>Phone number: 123-456-7890, email: matt.rockhold@my.simspon.edu</address>
 
-<footer> 
-&copy; 2017 by Boots 'N Beer 
-</footer>
+<?php
+include '../resources/footer.php';
+?>
 
 </div>
 

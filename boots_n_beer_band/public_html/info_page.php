@@ -14,7 +14,7 @@
 <body>
 
 <?php
-include '../resources/navigation.php'
+include '../resources/navigation.php';
 ?>
 <div class = "below_menu_container">
 <img class="boot" src="img/bootsnbeer_logo2.png" alt="Band Logo" />
@@ -63,9 +63,9 @@ so he plays the drums, piano, and even the bongos! Jake says that he has been pl
 since he was a kid, whether it was when he bought his first pair of drums or when he 
 was beating on the trash can outside, he just felt this rhythm inside! </p>    
 
-<footer> 
-&copy; by Boots 'N Beer 
-</footer>
+<?php
+include '../resources/footer.php';
+?>
 
 </div>
 
